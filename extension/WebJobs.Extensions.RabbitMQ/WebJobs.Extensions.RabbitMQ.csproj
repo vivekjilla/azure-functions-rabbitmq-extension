@@ -16,6 +16,7 @@
     <AnalysisMode>All</AnalysisMode>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591;CS1573</NoWarn>
 
     <!-- NuGet package metadata (see https://docs.microsoft.com/nuget/reference/msbuild-targets#pack-target) -->
     <PackageId>Microsoft.Azure.WebJobs.Extensions.RabbitMQ</PackageId>
